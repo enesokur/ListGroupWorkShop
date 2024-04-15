@@ -20,7 +20,8 @@ export class AppComponent {
       "brand": "Toyota",
       "model": "Corolla",
       "price": 75000,
-      "variant": "primary"
+      "variant": "primary",
+      "isDisabled": "disabled"
     },
     {
       "brand": "Honda",
@@ -32,7 +33,8 @@ export class AppComponent {
       "brand": "BMW",
       "model": "3 Series",
       "price": 85000,
-      "variant": "success"
+      "variant": "success",
+      "isActive": "active"
     },
     {
       "brand": "Mercedes-Benz",

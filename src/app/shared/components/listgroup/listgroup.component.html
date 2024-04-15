@@ -1,5 +1,5 @@
 <ul class="list-group">
     <ng-container *ngFor="let item of data">
-        <li class="list-group-item list-group-item-{{item.variant}}">{{item.brand}} | {{item.model}} | {{item.price}}</li>
+        <li class="list-group-item list-group-item-{{item.variant}} {{item.isDisabled}} {{item.isActive}}">{{item.brand}} | {{item.model}} | {{item.price}}</li>
     </ng-container>
 </ul>
